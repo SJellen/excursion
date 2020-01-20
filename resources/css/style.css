@@ -1,4 +1,5 @@
 html {
+    
     background-color: black;
     text-align: center;
     color: white;
@@ -47,4 +48,234 @@ p {
 #copy {
     text-align: right;
     color: gray;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        text-align: center;
+        
+    }
+    header {
+        font-size: 30px;
+        padding: 0 auto;
+        
+    }
+    
+    video {
+        transform: scale(.8);
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 auto;
+    }
+    p {
+        font-size: 15px;
+        padding: 0 auto;
+    }
+    #camp {
+        transform: scale(.5);
+        margin: 0 auto;
+        padding: 0 auto;
+        margin-left: -220px;
+        
+    }
+    #phone {
+        transform: scale(.8);
+        margin-top: -50px;
+        padding: 0 auto;
+    }
+    #copy {
+       
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        align-items: center;
+    }
+    header {
+        
+        font-size: 30px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+    
+    video {
+        transform: scale(.9);
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 auto;
+    }
+    p {
+        font-size: 15px;
+        padding: 0 auto;
+    }
+    #camp {
+        transform: scale(.8);
+        margin: 0 auto;
+        padding: 0 auto;
+        
+        
+    }
+    #phone {
+        transform: scale(.8);
+        margin-top: -50px;
+        padding: 0 auto;
+    }
+    #copy {
+      margin-right: -50px
+    }
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        text-items: center;
+
+    }
+    header {
+        
+        font-size: 40px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+    
+    video {
+        transform: scale(.9);
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 auto;
+    }
+    p {
+        font-size: 15px;
+        padding: 0 auto;
+    }
+    #camp {
+        transform: scale(.8);
+        margin: 0 auto;
+        padding: 0 auto;
+        
+        
+    }
+    #phone {
+        transform: scale(.8);
+        margin-top: -50px;
+        padding: 0 auto;
+    }
+    #copy {
+      margin-right: -50px
+    }
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        text-items: center;
+
+    }
+    header {
+        
+        font-size: 25px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+    
+    video {
+        
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 auto;
+    }
+    p {
+        font-size: 15px;
+        padding: 0 auto;
+    }
+    #camp {
+       
+        margin: 0 auto;
+        padding: 0 auto;
+        
+        
+    }
+    #phone {
+        transform: scale(.8);
+        margin-top: -50px;
+        padding: 0 auto;
+    }
+    #copy {
+        margin-right: 150px;
+        padding: 0 auto;
+    }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        text-items: center;
+
+    }
+    header {
+        
+        font-size: 40px;
+        padding: 0 auto;
+        margin: 0 auto;
+        
+    }
+    
+    video {
+        
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 0 auto;
+    }
+    p {
+        font-size: 15px;
+        padding: 0 auto;
+    }
+    #camp {
+       
+        margin: 0 auto;
+        padding: 0 auto;
+        
+        
+    }
+    #phone {
+        transform: scale(.8);
+        margin-top: -50px;
+        padding: 0 auto;
+    }
+    #copy {
+        margin-right: 200px;
+        padding: 0 auto;
+    }
 }
