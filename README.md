@@ -2,15 +2,7 @@
 
 ![screenshot](https://github.com/SJellen/excursion/blob/master/ScreenShot.png)
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
-</p>
-
 > A codecademy project.
-
-
-
-### ✨ [Demo](https://snotty-actor.surge.sh)
 
 ## Author
 
